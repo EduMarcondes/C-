@@ -1,4 +1,7 @@
- private void btnRestaurar_Click(object sender, EventArgs e)
+using Microsoft.SqlServer.Management.Common;
+using Microsoft.SqlServer.Management.Smo;
+
+private void btnRestaurar_Click(object sender, EventArgs e)
         {
             // Informações de conexão com o servidor
             ServerConnection conn = new ServerConnection("localhost\\tew_sqlexpress");

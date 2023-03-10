@@ -1,6 +1,10 @@
 using Microsoft.SqlServer.Management.Common;
 using Microsoft.SqlServer.Management.Smo;
 
+
+        private ServerConnection conectarDB;
+        private Server connection;
+
         //Metodo de conexão com SQL Server
         public bool conectarSQL(string server, string user, string password)
         {

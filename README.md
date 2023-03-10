@@ -1,2 +1,1 @@
-# C-
-Funções e regras de programação em C#
+Aqui reuno um conjunto de programaçoes e C# que venho criando:
